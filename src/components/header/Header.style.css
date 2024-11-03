@@ -86,3 +86,7 @@ header .header-description .header-title {
 #account-menu li svg{
     font-size: 20px;
 }
+
+.logout{
+  color: rgb(178, 9, 9) !important;
+}

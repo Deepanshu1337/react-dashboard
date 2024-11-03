@@ -105,7 +105,7 @@ const Header = () => {
                   >
                     <MenuItem onClick={handleProfileClose}>
                       <ListItemIcon>
-                        <PersonAdd fontSize="small" />
+                        <PersonAdd />
                       </ListItemIcon>
                       profile
                     </MenuItem>
@@ -115,9 +115,9 @@ const Header = () => {
                       </ListItemIcon>
                       Reset password
                     </MenuItem>
-                    <MenuItem onClick={handleProfileClose}>
-                      <ListItemIcon>
-                        <Logout fontSize="small" />
+                    <MenuItem onClick={handleProfileClose} className="logout">
+                      <ListItemIcon className="logout">
+                        <Logout />
                       </ListItemIcon>
                       Logout
                     </MenuItem>
