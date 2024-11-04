@@ -17,11 +17,7 @@ body {
   flex: 0 0 20%;
   transition: all 0.3s ease-in-out;
 }
-.content-wrapper{
+.main .content-wrapper{
   width: 80%;
-}
-.right-content{
-  width: 100%;
-  background-color: green !important;
-  padding: 90px 50px;
+  flex: 0 0 80%;
 }
